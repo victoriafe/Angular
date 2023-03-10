@@ -1,0 +1,17 @@
+#body{
+    background-color: #DBDBDB;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: auto;
+    margin: 10px 150px 10px 150px;
+    border-radius: 10px;
+}
+h2{
+    margin-bottom: 1em;
+    font-size: 2.2em;
+}
+
+.cadastro{
+    color: #dec129;
+}

@@ -5,3 +5,42 @@ body{
     padding: 0px;
     margin: 0px;
 }
+p{
+    color: white;
+}
+/*FORM*/
+form{
+    width: 450px;
+    margin: 0 auto;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    text-align: left;
+}
+.form-group label{
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: .4em;
+}
+.form-group input{
+    padding: 0.6em;
+    color: #777;
+    font-size: 0.8em;
+}
+input[type="submit"]{
+    background-color: #777;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: .4em;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    color: #800000;
+    border-color: #800000;
+    background-color: transparent;
+
+}

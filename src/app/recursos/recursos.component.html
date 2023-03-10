@@ -1,0 +1,13 @@
+<div id="body">
+    <h2>Renderização de Listas</h2>
+    <p class="texto">Ngfor é uma diretiva Angular que permite percorrer um array, ou qualquer objeto iterável, e exibir cada item do array como elemento na tela.</p>
+    <p class="texto">E o que isso deveria significar? </p>    
+    <p class="texto">olocar o ngFor em um elemento HTML, ou componente, cria várias cópias desse elemento para cada item do array fornecido.</p>
+    <p class="texto">Alias o Angular ngFor tem o comportamento parecido com o loop for nas linguagens de programação…</p>
+    <h2>Exemplo</h2>    
+        <ul>
+            <li *ngFor="let lista of list"> 
+                Nome: {{lista.name}} - Tipo: {{lista.type}}
+            </li>
+        </ul>
+</div>

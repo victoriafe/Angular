@@ -6,9 +6,12 @@ import { HeadearComponent } from './header/headear.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { RecursosComponent } from './recursos/recursos.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { EnviarFormularioComponent } from './enviar-formulario/enviar-formulario.component';
 
 @NgModule({
-  declarations: [AppComponent, HeadearComponent, FormularioComponent, HomeComponent],
+  declarations: [AppComponent, HeadearComponent, FormularioComponent, HomeComponent, RecursosComponent, SobreComponent, EnviarFormularioComponent],
   imports: [BrowserModule,RouterModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

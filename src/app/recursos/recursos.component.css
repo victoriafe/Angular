@@ -1,0 +1,21 @@
+#body{
+    background-color: #DBDBDB;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: auto;
+    margin: 10px 150px 10px 150px;
+    border-radius: 10px;
+}
+ul{
+    list-style-type:none;
+    text-align: center;
+    margin-left: -50px;
+
+}
+li{
+    padding-bottom: 10px;
+}
+.texto{
+    color: black;
+}
